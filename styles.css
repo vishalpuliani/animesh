@@ -1,0 +1,292 @@
+/* font-family: 'Kalam', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Unna', serif; */
+/********* Index Page *********/
+body, html {
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Caladea', serif;
+  margin: 15px 0;
+}
+
+th {
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+td {
+  font-family: 'Arapey', serif;
+  font-size: 1.2rem;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("Images/FrontPage.jpg");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clickBtn {
+  position: relative;
+  top: 75%;
+  left: 65%;
+}
+
+/********* BioData Page *********/
+.image-section {
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+.image-section img {
+  border: 4px groove;
+  border-color: #005082;
+  padding: 5px;
+}
+
+.td-light {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Navbar Section */
+.profile-img {
+  width: 50px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-toggler {
+  padding: 5px;
+  background-color: #00a8cc;
+}
+
+.navbar-btn-text {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffa41b;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Carousel Section */
+.carousel img {
+  width: 100%;
+  height: 725px;
+  object-fit: cover;
+}
+
+/* Name Section */
+#name-section {
+  text-align: center;
+  padding: 40px;
+}
+
+@media (max-width:765px) {
+  #name-section {
+    padding-bottom: 0;
+  }
+}
+
+/* Personal Details */
+
+
+.personalDetailsImage {
+  height: 500px;
+}
+
+/* Education Details */
+.educationImage {
+  height: 400px;
+}
+
+.educationText {
+  padding: 80px 0;
+}
+
+@media (max-width:765px) {
+  .educationText {
+    padding: 0;
+  }
+}
+
+/* Family Details */
+.familyDetailsImage {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.familyDeatilsText {
+  padding: 10px 0;
+}
+
+.familyDeatilsText ol {
+  padding-left: 18px;
+}
+
+/* Side Details */
+.maternalSideText {
+  padding: 200px 0;
+}
+
+@media (max-width:765px) {
+  .maternalSideText {
+    padding: 0;
+  }
+
+  .familyDetailsImage {
+    margin-top: 0;
+  }
+}
+
+/* Pictures */
+.imgBox img {
+  width: 100%;
+  padding: 3px;
+  border: 4px solid #005082;
+}
+
+.image-Row {
+  margin: 75px 0;
+}
+
+.vertical-image {
+  text-align: center;
+}
+
+.vertical-image img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.horizontal-image img {
+  margin-top: 50px;
+}
+
+@media (max-width:765px) {
+  .image-Row {
+    margin: 0;
+  }
+
+  .vertical-image {
+    margin-top: 30px;
+  }
+}
+
+/* Contact Section */
+#contact {
+  padding: 0 15px 20px;
+}
+
+.contactTable {
+  padding-top: 70px;
+}
+
+.connectForm{
+  padding-top: 50px;
+  margin-left: 100px;
+  font-family: 'Arapey', serif;
+  font-size: 1.2rem;
+}
+
+.socialMediaTable{
+  padding-top: 60px;
+}
+
+.socialMediaHeading{
+  padding: 50px 15px;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+@media (max-width: 765px) {
+
+  .contactTable {
+    padding: 0;
+  }
+  .connectForm{
+    padding: 0 5px;
+    margin-left: 0;
+  }
+
+  .socialMediaTable{
+    padding-top: 0;
+  }
+
+  .socialMediaHeading{
+    padding: 10px 5px;
+  }
+}
+
+/* Footer Section */
+#footer{
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-size: 1rem;
+}
+
+.footer-text{
+  color: #8f8f8f;
+}
+
+/* To interchange the Education Text and Image Section On Size Reductionn */
+@media (max-width: 765px) {
+  .educationContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .educationContainer .educationImageDiv {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .educationContainer .educationText {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    padding: 0 15px;
+  }
+}
