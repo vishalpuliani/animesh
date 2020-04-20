@@ -30,7 +30,7 @@ td {
 
 .bg-img {
   /* The image used */
-  background-image: url("Images/FrontPage.jpg");
+  background-image: url("Images/Black&White.png");
   /* Full height */
   height: 100%;
   width: 100%;
@@ -43,7 +43,7 @@ td {
 .clickBtn {
   position: relative;
   top: 75%;
-  left: 65%;
+  left: 25%;
 }
 
 /********* BioData Page *********/
